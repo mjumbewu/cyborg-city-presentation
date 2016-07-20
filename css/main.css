@@ -101,17 +101,21 @@ footer {
 
 .timeline article {
   position: relative;
-  border: 1px solid silver;
+  border: 2px solid silver;
   border-radius: 0.4rem;
-  margin: 1rem;
+  margin: 1rem 0.1rem;
   padding: 1rem;
-  width: 10rem;
+  width: 10em;
   white-space: normal;
   transition: border-width 0.5s,
     padding-bottom 0.5s,
     margin-bottom 0.5s,
+    margin-left 0.5s,
+    margin-right 0.5s,
     bottom 0.5s;
   bottom: 0rem;
+  font-size: 0.75rem;
+  text-align: center;
 }
 
 .timeline article::after {
@@ -129,11 +133,14 @@ footer {
 }
 
 .timeline article.selected {
-  border-width: 3px;
+  border-width: 5px;
   padding-bottom: 2rem;
   margin-bottom: -1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   bottom: 1rem;
   border-color: #EAD9A7;
+  font-size: 1rem;
 }
 
 .timeline article.selected::after {

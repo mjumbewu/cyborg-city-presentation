@@ -15,6 +15,14 @@ class SlideshowState {
       'timeline,dean-campaign',
       'kenya-poll-place',
       'timeline,ushahidi-launched',
+      'timeline,seeclickfix-founded',
+      'timeline,crowdsourcing',
+      'timeline,everyblock-founded',
+      'timeline,oscar-grant',
+      'timeline,iphone-launched',
+      'timeline,android-launched',
+      'timeline,youtube-founded',
+      'timeline,youtube-acquired',
     ];
     this.completed = [];
   }
