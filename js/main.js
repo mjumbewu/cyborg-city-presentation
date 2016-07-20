@@ -6,7 +6,15 @@ class SlideshowState {
       'q1-phenomena,q1-empty',
       'q1-phenomena,q1-civic-tech',
       'q1-phenomena,q1-cyborgification',
-      'timeline',
+      'timeline,first-browser',
+      'timeline,google-founded',
+      'timeline,apple-next',
+      'timeline,facebook-founded',
+      'timeline,wikipedia-launched',
+      'timeline,craigslist-expansion',
+      'timeline,dean-campaign',
+      'kenya-poll-place',
+      'timeline,ushahidi-launched',
     ];
     this.completed = [];
   }
@@ -121,7 +129,7 @@ function goToSlide(hash, slides, transition) {
     transition.classList.add('hidden');
     slideToShow.classList.remove('hidden');
     goToSubslide(subHash, slideToShow);
-  }, 200);
+  }, 150);
 }
 
 window.onload = function() {
