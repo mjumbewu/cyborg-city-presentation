@@ -1,0 +1,143 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+}
+
+.slide,
+.transition {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+}
+
+.transition {
+  background-image: url(../img/white-noise.gif);
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1em;
+  text-align: right;
+  color: rgba(128, 128, 128, 0.75);
+}
+
+/* --------------------------------------------------------
+  Centered title slides
+*/
+
+.centered {
+  text-align: center;
+}
+.centered h1 {
+  font-size: 2.5rem;
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
+}
+.centered h2 {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
+/* --------------------------------------------------------
+  Full-slide images
+*/
+
+.cover-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.contain-image {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* --------------------------------------------------------
+  The timeline
+*/
+
+.timeline h1 {
+  display: none;
+}
+
+.timeline {
+  background: white;
+  color: black;
+  white-space: nowrap;
+}
+
+.slippy {
+  white-space: nowrap;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border-bottom: 2px solid silver;
+  transition: left 0.5s;
+}
+
+.timeline article,
+.timeline .year {
+  display: inline-block;
+}
+
+.timeline article {
+  position: relative;
+  border: 1px solid silver;
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+  width: 10rem;
+  white-space: normal;
+  transition: border-width 0.5s,
+    padding-bottom 0.5s,
+    margin-bottom 0.5s,
+    bottom 0.5s;
+  bottom: 0rem;
+}
+
+.timeline article::after {
+  content: ' ';
+  width: 0;
+  height: 0;
+  border-left: 0.75rem solid transparent;
+  border-right: 0.75rem solid transparent;
+
+  border-top: 0.75rem solid silver;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.timeline article.selected {
+  border-width: 3px;
+  padding-bottom: 2rem;
+  margin-bottom: -1rem;
+  bottom: 1rem;
+}
+
+.timeline .year {
+  font-size: 1rem;
+  position: absolute;
+  top: 100%;
+  width: 10rem;
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+}
