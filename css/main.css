@@ -103,9 +103,8 @@ footer {
   position: relative;
   border: 2px solid silver;
   border-radius: 0.4rem;
-  margin: 1rem 0.1rem;
+  margin: 1rem;
   padding: 1rem;
-  width: 10em;
   white-space: normal;
   transition: border-width 0.5s,
     padding-bottom 0.5s,
@@ -114,7 +113,6 @@ footer {
     margin-right 0.5s,
     bottom 0.5s;
   bottom: 0rem;
-  font-size: 0.75rem;
   text-align: center;
 }
 
@@ -147,12 +145,19 @@ footer {
   border-top-color: #EAD9A7;
 }
 
+.timeline article,
 .timeline .year {
-  font-size: 1rem;
+  font-size: 0.75rem;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+  width: 10em;
+}
+
+.timeline .year {
   position: absolute;
   top: 100%;
-  width: 10rem;
   text-align: center;
-  margin: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   padding: 1rem;
 }
