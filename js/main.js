@@ -172,9 +172,32 @@ window.onload = function() {
   }
 
   window.onkeyup = function(evt) {
+    if (evt.altKey || evt.ctrlKey || evt.metaKey || evt.shiftKey) { return; }
+
     evt.preventDefault();
-    if (evt.code === 'ArrowUp') { state.advance(); }
-    if (evt.code === 'ArrowDown') { state.backup(); }
+    switch (evt.code) {
+      case 'ArrowUp':
+      case 'ArrowRight':
+        state.advance();
+        break;
+
+      case 'ArrowDown':
+      case 'ArrowLeft':
+        state.backup();
+        break;
+    }
+    window.location = '#' + state.current;
+  }
+
+  window.ontouchstart = function() { window._touchStartTime = new Date(); }
+  window.ontouchend = function(evt) {
+    if (new Date() - window._touchStartTime < 500) {
+      window.ontouchtap(evt);
+    }
+  }
+
+  window.ontouchtap = function(evt) {
+    state.advance();
     window.location = '#' + state.current;
   }
 }
