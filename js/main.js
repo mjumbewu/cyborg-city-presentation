@@ -32,6 +32,7 @@ class SlideshowState {
       'timeline,iphone-decryption',
       'timeline,trauma',
       'timeline,tour-of-duty',
+      'timeline,oauth4',
       'timeline,senda',
       'djangocon',
       'thanks',
