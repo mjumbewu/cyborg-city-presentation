@@ -23,6 +23,18 @@ class SlideshowState {
       'timeline,android-launched',
       'timeline,youtube-founded',
       'timeline,youtube-acquired',
+      'timeline,cfa-fellowship',
+      'cfa-class',
+      'timeline,cfa-brigade',
+      'timeline,gds-formed',
+      'timeline,snowden-leaks',
+      'timeline,black-lives-matter',
+      'timeline,iphone-decryption',
+      'timeline,trauma',
+      'timeline,tour-of-duty',
+      'timeline,senda',
+      'djangocon',
+      'thanks',
     ];
     this.completed = [];
   }
@@ -100,7 +112,7 @@ function goToSubslide(hash, slide) {
   }
 }
 
-function goToSlide(hash, slides, transition) {
+function goToSlide(hash, slides, transition, transitionTime) {
   if (!hash) return;
 
   console.log('jumping to slide ' + hash);
@@ -119,7 +131,7 @@ function goToSlide(hash, slides, transition) {
     }
   }
 
-  // If that slide is already shown, do nothing.
+  // If that slide is already shown, just process any sub-slide action.
   if (!slideToShow.classList.contains('hidden')){
     goToSubslide(subHash, slideToShow);
     return;
@@ -137,7 +149,7 @@ function goToSlide(hash, slides, transition) {
     transition.classList.add('hidden');
     slideToShow.classList.remove('hidden');
     goToSubslide(subHash, slideToShow);
-  }, 150);
+  }, transitionTime);
 }
 
 window.onload = function() {
@@ -147,7 +159,7 @@ window.onload = function() {
   var initialHash = window.location.hash.slice(1)
 
   // Initialize based on the hash
-  goToSlide(initialHash, slides, transition);
+  goToSlide(initialHash, slides, transition, 0);
   while (initialHash && state.current !== initialHash && state.upcoming.length > 0) {
     state.advance();
   }
@@ -156,7 +168,7 @@ window.onload = function() {
   window.onhashchange = function(evt) {
     evt.preventDefault();
     if (evt.newURL === evt.oldURL) { return; }
-    goToSlide(window.location.hash.slice(1), slides, transition);
+    goToSlide(window.location.hash.slice(1), slides, transition, 150);
   }
 
   window.onkeyup = function(evt) {
