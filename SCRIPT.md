@@ -52,14 +52,13 @@
 
 ## 2026+
 * OSS infrastructure and maintenance subsidies
+* It is also shortly after this time that the term “civic technology” falls out of favor, with many feeling that it is redundant. Networked information technology becomes simply another  infrastructural component of the city. We to have public roads and public schools, etc, but we often leave off the "public" in talking about these things because public infrastructure becomes the default. Likewise, as networked information technology becomes more central to our world, private and recreational technology is noteworthy; "civic" technology is assumed.
 * At the 2026 DjangoCon, a grizzled Andrew Godwin delivers an impassioned presentation on his newest invention. At the conclusion of his talk, he asks where we will see ourselves in 10 years time -- what is the next major movement in networked information application development? His language resonates deeply with the crowd of technologists and early adopters, who have moved further on their journey to acknowledging the inherent way that their tech has become a part of them than the general population will for another decade: in 1995 we were desktop applications. In 2005 we were websites. In 2015 we were rich mobile web applications. And in 2025 … Who, he asks, will we be in 2035?
-* It is also shortly after this time that the term “civic technology” falls out of favor, with many feeling that it’s as silly as saying civic roads,
 
 # Conclusions:
 * It’s not any particular piece of technology that is important in civic tech, nor is it all of the technology in aggregate. Instead, the *idea* of Civic Tech -- that technology can and should mediate our relationships with our cities -- as a positive value is one of the most important outgrowths of the early 21st century.
 * Be aware of the context of your inventions; nothing is without values.
 * History is messy and cyclic, and so is the future. We are in the middle of history.
-* Civic technology, as a term, will become redundant. Think about our other civic infrastructure. We to have public roads and public schools, etc, but we often leave off the “public” in talking about these things because public infrastructure becomes the default. Likewise, as networked information technology becomes more central to our world, “civic” will be assumed. Private and recreational technology will be the noteworthy one.
 * In thinking about what you should do as a technologist today, consider that it’s not sufficient to think about what tech will look and project that onto cities. Instead, bear in mind that technology is part of the system of a city and evolves in concert with the social needs around it.
 
 Thank you.
