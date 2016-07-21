@@ -11,7 +11,7 @@
 * This immediate precursor to our era in question sets a very important stage.
 * The World Wide Web is invented. Microsoft’s Internet Explorer emerges as the browser of choice among people developing for the Web, after a period known as the “Browser Wars”, which is not actually an armed struggle.
 * Portals are seen as the future of the Web.
-* My personal website is on Geocities and my search engine of choice is HotBot because I'm a cool kid which is code speak for nerd.
+* My personal website is on Geocities and my search engine of choice is HotBot because I'm a *cool kid* which is code speak for *nerd*.
 * Google is born, but has not yet become the cultural giant that it will. The same is true of the first generation of children that will not know a world without the internet.
 * It is difficult to pinpoint the time when our consciousness began to become intertwined with our computers, but this was a period that saw our empathy for the machines we used become mainstream. Perhaps it was just a natural progression of history, but the marketing of Apple products in the 2nd Steve Jobs era may have also had a lot to do with it. That era started here.
 
@@ -20,18 +20,18 @@
 * Collaborative editing becomes a thing. Wikipedia and, a few years later, OpenStreetMap are what will become two of the larger platforms that popularize this phenomenon. They are both, at least in part, a response to the lack of free and open sources of their respective data, an ideological motivation much like that of the early Open Source software proponents. If you realize nothing else about history, realize that it operates in cycles of varying lengths.
 * The earliest of the organization's that would become known explicitly as Civic Technology organizations begin to sprout up, with names like OpenPlans, and mySociety. They don't know what they're doing, because no one has done it before, but they do it with gusto.
 * The first civic applications also start to be released. None of them have pictures and all of them have white backgrounds, black text, and blue hyperlinks, as if any other colors are too frivolous to manage.
-* Electoral political campaigns in the United States begin to experiment with engaging potential voters, particularly on the younger end of the spectrum, through electronic means. However, incumbent governments show little interest in doing the same. Many governments begin to have a presence on the web, though their sites function as little more than glorified about pages and look almost as good as my Geocities site.
+* Electoral political campaigns in the United States begin to experiment with engaging potential voters, particularly on the younger end of the spectrum, through electronic means. However, incumbent governments show little interest in doing the same. Many governments begin to have a presence on the web, though their sites function as little more than glorified about pages and look *almost* as good as my Geocities site.
 
 ## 2006 - 2010
 * This next period has a couple of very significant years: 2007 and 2008 to be specific.
-* Let’s talk about Kenya first. In 2007, Kenya is going through a contentious and in some cases dangerous general election, with scattered reports of violent intimidation of voters. In what is emerging as the “civic hacking” community around the world, this story becomes one of a small group of Kenyan developers creating a system that uses the crowd, so to speak -- the masses of voting public -- as a primary source of information about intimidation and violence at polling places for the purpose of creating greater transparency around what’s going on. They call this system Ushahidi.
+* Let’s talk about Kenya first. In 2007, Kenya is going through a contentious and in some cases dangerous general election, with scattered reports of violent intimidation of voters. In what is emerging as the “civic hacking” community around the world, this story becomes one of a small group of Kenyan developers creating a system that uses the **crowd**, so to speak -- the masses of voting public -- as a primary **source** of information about intimidation and violence at polling places for the purpose of creating greater transparency around what’s going on. They call this system Ushahidi.
 * During this period, a number of other technologies based around crowdsourcing emerge, for example, SeeClickFix, which allows city residents to report non-emergency issues that would be traditionally reported through services such as 311. Though these are not the first examples of this method (and if you’ll recall, wikipedia and OSM are two examples from the previous period that use the same methods), but the practice was not explicitly identified and named until this period.
 * The surge in technological progress has a detrimental effect on several industries, one of which is printed news media. The John S. and James Knight Foundation takes to funding projects that rethink news media for the changing times. One of the early projects that they fund is EveryBlock, which aims to provide hyperlocal, or microlocal, news.
 * An interesting and spontaneous type of crowd sourced transparency emerges in this period as well. Early in the morning on New Years Day, 2009 at the Fruitvale BART station in Oakland, CA, Oscar Grant is shot and killed by a BART police officer while handcuffed, face-down, on the platform. This event is independently video recorded by several bystanders, uploaded to YouTube, and also shared with what are at this point the traditional media outlets.
 
   This and later events would not have been able to be captured and disseminated in quite the same way were it not for other developments during this period -- specifically the release of the iPhone and Android operating systems and the resultant explosion in popularity of portable devices capable of making those recordings, as well as the launch of video sharing services such as Youtube, and their subsequent acquisition by Google.
 
-* Also, most governments now have a presence on the web, though their sites function as little more than glorified about pages and look almost as good as my Geocities site.
+* Also, most governments now have a presence on the web, though their sites function as little more than glorified about pages and look *almost* as good as my Geocities site.
 
 ## 2011 - 2015
 * This period and bleeding into the next is a big time for governments getting into the game.
@@ -56,7 +56,7 @@
 * It is also shortly after this time that the term “civic technology” falls out of favor, with many feeling that it’s as silly as saying civic roads,
 
 # Conclusions:
-* It’s not any particular piece of technology that is important in civic tech, nor is it all of the technology in aggregate. Instead, the idea of Civic Tech -- that technology can and should mediate our relationships with our cities -- as a positive value is one of the most important outgrowths of the early 21st century.
+* It’s not any particular piece of technology that is important in civic tech, nor is it all of the technology in aggregate. Instead, the *idea* of Civic Tech -- that technology can and should mediate our relationships with our cities -- as a positive value is one of the most important outgrowths of the early 21st century.
 * Be aware of the context of your inventions; nothing is without values.
 * History is messy and cyclic, and so is the future. We are in the middle of history.
 * Civic technology, as a term, will become redundant. Think about our other civic infrastructure. We to have public roads and public schools, etc, but we often leave off the “public” in talking about these things because public infrastructure becomes the default. Likewise, as networked information technology becomes more central to our world, “civic” will be assumed. Private and recreational technology will be the noteworthy one.
