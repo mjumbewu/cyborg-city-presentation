@@ -73,6 +73,6 @@
 * There are a few things that are important to take away from this:
   1. It’s not any particular piece of technology that is important in civic tech, nor is it all of the technology in aggregate. Instead, the *idea* of Civic Tech -- that technology can and should mediate our relationships with our cities -- as a positive value is one of the most important outgrowths of the early 21st century.
   2. In thinking about what you should do as a technologist today, consider that it’s not sufficient to think about what tech will look like in the future and project that onto cities. Instead, bear in mind that technology is part of the system of a city and evolves in concert with the social needs around it. Think about what that social context is and how it will change. Be aware of the context of your inventions; nothing is without values.
-  3. History is messy and cyclic, and so is the future. We are in the middle of history.
+  3. History is messy and cyclic, and so is the future. One day we may be able to give a history of the Cyborg City. However, "we often forget that we are in the middle of history". Our idea of the Cyborg City and what is relevant in it changes from year to year. So, it may be decades before we can do the idea justice, much like we had to wait decades to give an adequate history of Civic Tech.
 
 Thank you.
