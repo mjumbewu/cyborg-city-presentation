@@ -46,10 +46,22 @@ footer {
 }
 
 /* --------------------------------------------------------
+  Sparsely populated slides
+*/
+
+.sparse h1 {
+  font-size: 2.5rem;
+}
+
+.sparse p, .sparse ul {
+  font-size: 2rem;
+}
+
+/* --------------------------------------------------------
   Centered title slides
 */
 
-#title-slide h1 {
+.centered h1 {
   font-size: 4rem;
 }
 
@@ -66,14 +78,6 @@ footer {
   position: absolute;
   top: 50%;
   width: 100%;
-}
-
-.sparse h1 {
-  font-size: 2.5rem;
-}
-
-.sparse p, .sparse ul {
-  font-size: 2rem;
 }
 
 /* --------------------------------------------------------
@@ -181,12 +185,12 @@ dt.hidden + dd {
   margin-left: 1rem;
   margin-right: 1rem;
   bottom: 1rem;
-  border-color: #EAD9A7;
+  border-color: #ffbe00;
   font-size: 1rem;
 }
 
 .timeline article.selected::after {
-  border-top-color: #EAD9A7;
+  border-top-color: #ffbe00;
 }
 
 .timeline article,
