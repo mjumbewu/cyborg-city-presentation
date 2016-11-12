@@ -14,8 +14,8 @@ html, body {
   height: 100%;
   padding: 2rem;
   box-sizing: border-box;
-  background-color: black;
-  color: white;
+  background-color: #222;
+  color: #eee;
 }
 
 .transition {
@@ -36,16 +36,28 @@ footer {
   color: rgba(128, 128, 128, 0.75);
 }
 
+#thanks .column-1,
+#thanks .column-2 {
+  margin: 0;
+  width: 50%;
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 1.5rem;
+}
+
 /* --------------------------------------------------------
   Centered title slides
 */
+
+#title-slide h1 {
+  font-size: 4rem;
+}
 
 .centered {
   text-align: center;
   padding: 0;
 }
 .centered h1 {
-  font-size: 2.5rem;
   position: absolute;
   bottom: 50%;
   width: 100%;
@@ -54,6 +66,14 @@ footer {
   position: absolute;
   top: 50%;
   width: 100%;
+}
+
+.sparse h1 {
+  font-size: 2.5rem;
+}
+
+.sparse p, .sparse ul {
+  font-size: 2rem;
 }
 
 /* --------------------------------------------------------
@@ -73,6 +93,29 @@ footer {
 }
 
 /* --------------------------------------------------------
+  Progressive reveal slides
+*/
+
+dl {
+  font-size: 1.5rem;
+  margin: 0 auto;
+  width: 30rem;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+dt.hidden + dd {
+  display: none;
+}
+
+/* --------------------------------------------------------
   The timeline
 */
 
@@ -81,8 +124,8 @@ footer {
 }
 
 .timeline {
-  background: white;
-  color: black;
+  background: #f8f8f8;
+  color: #222;
   white-space: nowrap;
 }
 
