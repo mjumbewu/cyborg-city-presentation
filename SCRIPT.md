@@ -4,7 +4,7 @@
 * Since then, there have been progressively fewer questions about whether cities were alive. But over the last few years we’ve begun to ask: well, if the city is alive, then is it a cyborg?
 * With respect to this topic, I am particularly interested in: if the city is a cyborg, how did it become so? And for that matter, what even makes us ask the question. Where does our interest in the city being a cyborg come from? **(click)**
 * To begin to answer these questions, I believe we can turn to the period in history from which we saw two coincident phenomena: **(click)**
-  1. First, the rise of various technologies that mediated the relationship between cities and their residents -- or, what was then called civic technology, and **(click)**
+  1. First, the rise of various technologies that mediated the relationship between cities, or neighborhoods, or any other macrobiological community, and their residents -- or, what was then called civic technology, and **(click)**
   2. Second, our own increasing comfort with the idea that our use of networked information technology was becoming as central to who we were as human beings as language, or society -- a phenomenon that some have referred to as cyborgification. This period roughly encompasses the first quarter of this century.
 * I’ll give a brief overview of this time in roughly half-decade intervals. I want to start a little before the beginning of the century with the 90s. This immediate precursor to our era in question sets a very important stage for everything that happens later. **(click)**
 
